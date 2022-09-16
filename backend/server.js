@@ -15,7 +15,7 @@ const dotenv = require('dotenv').config()
 const {errorHandler} = require("./middleware/errorMiddleware")
 
 //path
-const path = require('express');
+const path = require('path');
 
 const PORT = process.env.PORT || 5000
 
